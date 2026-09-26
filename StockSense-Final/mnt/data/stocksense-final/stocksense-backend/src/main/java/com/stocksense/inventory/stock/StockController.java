@@ -1,0 +1,1 @@
+package com.stocksense.inventory.stock; import lombok.RequiredArgsConstructor; import org.springframework.web.bind.annotation.*; import java.util.*; @RestController @RequestMapping("/api/stock") @RequiredArgsConstructor public class StockController { private final StockService stock; @GetMapping public List<StockBalance> all(){return stock.all();} }

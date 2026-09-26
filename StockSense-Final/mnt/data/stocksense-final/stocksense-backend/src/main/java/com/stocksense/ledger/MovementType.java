@@ -1,0 +1,1 @@
+package com.stocksense.ledger; public enum MovementType { RECEIPT, DELIVERY, TRANSFER_OUT, TRANSFER_IN, ADJUSTMENT_IN, ADJUSTMENT_OUT }

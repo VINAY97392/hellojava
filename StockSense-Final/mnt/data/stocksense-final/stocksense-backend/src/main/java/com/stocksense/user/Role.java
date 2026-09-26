@@ -1,0 +1,1 @@
+package com.stocksense.user; public enum Role { ADMIN, INVENTORY_MANAGER, WAREHOUSE_STAFF }
